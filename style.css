@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+.header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(https://i.pinimg.com/736x/c5/dc/53/c5dc53070960ee2ea4fb07ed2ff325b3.jpg);
+}
+.header h2{
+    margin-left: 500px;
+    font-size: 44px;
+    color: white;
+}
+.home{
+    display: flex;
+}
+
+.home :nth-child(1){
+    width: 100px;
+    height: 40px;  
+    margin-left: 30px; 
+}
+.home :nth-child(2){
+   color: #FFA500;
+}
+.home :nth-child(3){
+    color: #FFA500;
+    margin-left: 100px;
+}
+.home :nth-child(4){
+    color: #FFA500;
+    margin-left: 100px;
+}
+.home :nth-child(5){
+    width: 124px;
+    height: 33px;
+    top: 12px;
+    left: 983px;
+    border-radius: 8px;
+    background: #0336FF;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin-left: 100px;
+}
+.home :nth-child(6){
+    color: #FFA500;
+    margin-left: 100px;
+}
+.top-section{
+    display: flex;
+    padding-top: 30px;
+    gap: 340px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nulla{
+    max-width: 480px;
+}
+.nulla span{
+    color: #FFA500;
+}
+.travels{
+    margin-bottom: 70px;
+}
+.travels span{
+    color: #FFA500;
+}
+.travels h1{
+    max-width: 300px;
+    font-size: 44px;
+    margin-left: 30px;
+}
+.summer{
+    display: flex;
+    gap: 89px;
+}
+.energy{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top: 75px;
+}
+.energy img{
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+}
+.energy p{
+    color: #6E7191;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.energy h2{
+    font-size: 34px;
+    max-width: 330px;
+    background: #0336FF;    
+    color: white;
+    padding: 10px;
+}
+.star{
+    display: flex;
+}
+.location{
+    display: flex;
+    margin-bottom: 10px;
+}
+.location img{
+    width: 30px;
+    height: 30px;
+}
+.location p{
+    margin: 0 auto;
+}
+
+
+.center-bottom{
+    display: flex;
+    gap: 200px;
+    margin-top: 80px;
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    gap: 70px;
+    background: #000000AC;
+    padding: 40px;
+}
+.become p{
+   color: #EEEEEE;
+}
+.bloggers{
+    max-width: 300px;
+}
